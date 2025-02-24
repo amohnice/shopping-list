@@ -17,13 +17,13 @@ const ShoppingList = () => {
     setItems(items.filter((_, i) => i !== index));
   };
 
-  const toggleDone = (index) => {
-    setItems(
-      items.map((item, i) => 
-        i === index ? { ...item, done: !item.done } : item
-      )
-    );
-  };
+  // const toggleDone = (index) => {
+  //   setItems(
+  //     items.map((item, i) => 
+  //       i === index ? { ...item, done: !item.done } : item
+  //     )
+  //   );
+  // };
 
   return (
     <div>
